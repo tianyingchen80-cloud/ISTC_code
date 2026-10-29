@@ -1,0 +1,14 @@
+/result/
+/data/*
+!/data/README.md
+!/data/hk.csv
+!/data/traffic_data_6_9.csv
+!/data/traffic_data_9_12.csv
+/.venv/
+/.vscode/
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.py[cod]
+*.part
+.DS_Store
+Thumbs.db
