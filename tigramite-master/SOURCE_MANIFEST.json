@@ -1,0 +1,138 @@
+{
+  "revision": "Original local snapshot; upstream revision not recorded",
+  "upstream": "https://github.com/jakobrunge/tigramite",
+  "files": [
+    {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "tigramite/__init__.py"
+    },
+    {
+      "sha256": "b6fffb30cc943533753640b722badcdcf80f0ae4fb034fe8e8a8645eda306d7a",
+      "path": "tigramite/causal_effects.py"
+    },
+    {
+      "sha256": "bb6ef8f716e2ab6288c2756a85e04fdcfadde930e65cda64f191dc797f44f968",
+      "path": "tigramite/causal_mediation.py"
+    },
+    {
+      "sha256": "841549405efb07625e1b423975cd4abc67a9b1635000ce1b87d30ec5a4e94a8e",
+      "path": "tigramite/data_processing.py"
+    },
+    {
+      "sha256": "cbdedd7b9f6126b6a819d5acd69d7461e927ac8b57d3f92bdbb0815daff9d88c",
+      "path": "tigramite/graphs.py"
+    },
+    {
+      "sha256": "05f2a59140d3f4c16af5ce4eddcfb21c835529577d3cf18e9da07b970db801e1",
+      "path": "tigramite/jpcmciplus.py"
+    },
+    {
+      "sha256": "b9eb77a0ddcdc888397ebaa1176ca88a0829f404a1bfb1554ff91ed21ff7d131",
+      "path": "tigramite/lpcmci.py"
+    },
+    {
+      "sha256": "33fa040f2bb7dd1630ee10c064ada38e82803ae4bae896bd390d620b7c883361",
+      "path": "tigramite/models.py"
+    },
+    {
+      "sha256": "5cf339619079cbb7f8fed7c613fb81ed1455bb3497962aef77407fbe8e721eee",
+      "path": "tigramite/pcmci_base.py"
+    },
+    {
+      "sha256": "a51f6da3a3eeb08381232dfda7bcb31798f7c99afe92c6efe1b027535b43dbb1",
+      "path": "tigramite/pcmci.py"
+    },
+    {
+      "sha256": "fad81ae673a731ac07a42b20e3476c6eaf77db58b490d8d23f1e14618b794c74",
+      "path": "tigramite/plotting.py"
+    },
+    {
+      "sha256": "bc411d2b2e2ee97c79e43905758fe9998c6ef318bc1df2c8d322820fa59e548d",
+      "path": "tigramite/rpcmci.py"
+    },
+    {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "tigramite/independence_tests/__init__.py"
+    },
+    {
+      "sha256": "3719913742315b9b489f00c5e6a7d2a48dbfd1368f6c2dda794910607c5aa57a",
+      "path": "tigramite/independence_tests/cmiknn_mixed.py"
+    },
+    {
+      "sha256": "3c1ecf1e11be5ff85c8beeb8f205e1afbb60049d7c5d391eacd7bac2f12047e3",
+      "path": "tigramite/independence_tests/cmiknn.py"
+    },
+    {
+      "sha256": "7668054c076291a7672270c042d9e74f2c17a3c5a6d2b8afc198b6c9b2423238",
+      "path": "tigramite/independence_tests/cmisymb.py"
+    },
+    {
+      "sha256": "0c44a0c6babb818fc31534d0ca50bd5f715f1124f8ef3685198d5329bd8443c1",
+      "path": "tigramite/independence_tests/gpdc_torch.py"
+    },
+    {
+      "sha256": "ae95990936efac76a3f66ede1151f7bd98fa61c81a61f3d009234ed2bc14df27",
+      "path": "tigramite/independence_tests/gpdc.py"
+    },
+    {
+      "sha256": "62a316841d3b2feb0ba31ceb6da45b4473d1175263324ba475b01dd56875546b",
+      "path": "tigramite/independence_tests/gsquared.py"
+    },
+    {
+      "sha256": "80705e7ecd592ae5e96cdda131d25272f45d0fcf4d9bbba7a3fbe83345fe4a07",
+      "path": "tigramite/independence_tests/independence_tests_base.py"
+    },
+    {
+      "sha256": "075483669db7a87048cf6a6f5096871aa94d939312d2bc639ca171ecccaa96a0",
+      "path": "tigramite/independence_tests/LBFGS.py"
+    },
+    {
+      "sha256": "4abad56977694d36130e14e22f5e5631d625e6d12fc31977d15ae18d380b47de",
+      "path": "tigramite/independence_tests/oracle_conditional_independence.py"
+    },
+    {
+      "sha256": "40e111290044ec5611557ca60b3f2980ad8e359c93bc73e13f83a24ffb07a91e",
+      "path": "tigramite/independence_tests/pairwise_CI.py"
+    },
+    {
+      "sha256": "1fed7026b88f62691181eccdc648149a1067c3e2114d29bd7132f9acf002ac94",
+      "path": "tigramite/independence_tests/parcorr_mult.py"
+    },
+    {
+      "sha256": "0afdb35ac7575fb519fcf7875664fcee53a16e942d7e2fbedea9d6b334acec6d",
+      "path": "tigramite/independence_tests/parcorr_wls.py"
+    },
+    {
+      "sha256": "696dded6668fee33a2c3fed505aa954b983ca79f39a92d456d018ee3306a389f",
+      "path": "tigramite/independence_tests/parcorr.py"
+    },
+    {
+      "sha256": "dbdd0acee421064459ff3fcf338a26df258ff3807f3fd7b027d22e9e38e00a29",
+      "path": "tigramite/independence_tests/regressionCI.py"
+    },
+    {
+      "sha256": "feedf9a815da1ac17a483c7f103127d4e57489437d373a5316c7ddc1d0c0fa32",
+      "path": "tigramite/independence_tests/robust_parcorr.py"
+    },
+    {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "tigramite/toymodels/__init__.py"
+    },
+    {
+      "sha256": "8b157b19c2318dfc3c1fe876b2187054e16940898f8edc451cd306686bb4385a",
+      "path": "tigramite/toymodels/context_model.py"
+    },
+    {
+      "sha256": "e0f0b259f63a9ff8e42956b8f55463cd9588db7e6693a107509c8573242e387e",
+      "path": "tigramite/toymodels/non_additive.py"
+    },
+    {
+      "sha256": "cb91c895b14d7569ff71455e164753c71105f8c591599e06471bd8d2c18499ce",
+      "path": "tigramite/toymodels/structural_causal_processes.py"
+    },
+    {
+      "sha256": "18d441dacf731ce92d244d2e08b9dce2df033ca00dcab3365645e78c87df306c",
+      "path": "tigramite/toymodels/surrogate_generator.py"
+    }
+  ]
+}

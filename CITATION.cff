@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this software in research."
+type: software
+title: "ISTC: Interventional Spatiotemporal Causality"
+version: 0.1.0
+license: GPL-3.0-only
+authors:
+  - family-names: Chen
+    given-names: Tianying
+  - family-names: Zhao
+    given-names: Jintong
+  - family-names: Leng
+    given-names: Siyang
+  - family-names: Lin
+    given-names: Wei
+preferred-citation:
+  type: unpublished
+  title: "Detecting interventional spatiotemporal causality in dynamical systems"
+  authors:
+    - family-names: Chen
+      given-names: Tianying
+    - family-names: Zhao
+      given-names: Jintong
+    - family-names: Leng
+      given-names: Siyang
+    - family-names: Lin
+      given-names: Wei
